@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
   <meta charset="UTF-8">
@@ -26,7 +26,7 @@
       <span>@LuizFerK</span>
     </a>
     <div>
-      <button>
+      <button id="lang_toggle" onclick="toggleLang()">
         en-US
       </button>
       <button onclick="toggleTheme()">
@@ -37,8 +37,8 @@
   <main>
     <section class="hero">
       <img src="public/avatar.jpg" alt="Avatar" />
-      <h1>Hi, my name is<br />Luiz Fernando</h1>
-      <p>
+      <h1 id="title">Hi, my name is<br />Luiz Fernando</h1>
+      <p id="description">
         Full-Stack developer. Studying and constantly updating myself.
         I'm currently studying Computer Science at UFFS.
       </p>

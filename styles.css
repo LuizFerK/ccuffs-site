@@ -145,7 +145,7 @@ header > div button img {
 
 .hero h1 {
   margin: 20px 0 30px;
-  font-size: 68px;
+  font-size: 62px;
 }
 
 .hero p {
@@ -155,12 +155,12 @@ header > div button img {
 
 @media (max-width: 660px) {
   .hero h1 {
-    font-size: 10vw;
+    font-size: 9.6vw;
   }
 
   .hero p {
     width: 100%;
-    font-size: 4.5vw;
+    font-size: 4.3vw;
   }
 }
 
